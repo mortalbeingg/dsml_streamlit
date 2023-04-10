@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import datetime
 import pickle
-import sklearn
  
 carsdf= pd.read_csv('.\cars24price.csv')
 st.dataframe(carsdf.head(5))
