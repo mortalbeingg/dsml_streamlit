@@ -3,7 +3,7 @@ import pandas as pd
 import datetime
 import pickle
  
-carsdf= pd.read_csv('.\cars24price.csv')
+carsdf= pd.read_csv('cars24price.csv')
 st.dataframe(carsdf.head(5))
 
 col1,col2= st.columns(2)
