@@ -32,7 +32,7 @@ encodedict= {
 def modelpredict(fuel_type, transmission_type, engine, seats):
 
     ##loading the model
-    with open(".\car_pred",'rb') as file:
+    with open("car_pred",'rb') as file:
         model=pickle.load(file)
     
     ipfeatures=[[2018.0,seller_type,40000,fuel_type, transmission_type,19.70, engine, 86, seats]]
